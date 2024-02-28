@@ -12,6 +12,11 @@ def open_given_portal(context, portal):
     website_url = portal
     driver.get(portal)
 
+@then('I wait for 10 sec')
+def wait_for_10_sec(context):
+    time.sleep(10)
+    pass
+
 
 
 
