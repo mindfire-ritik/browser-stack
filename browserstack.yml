@@ -1,0 +1,14 @@
+userName: ritiktyagi_nWdqIf
+accessKey: 9Nj7DyFqZGNhw7zReWu6
+framework: behave
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: 120.0
+parallelsPerPlatform: 1
+browserstackLocal: true
+browserStackLocalOptions:
+  forceLocal: true
+buildName: browserstack-build-1
+projectName: BrowserStack Sample
