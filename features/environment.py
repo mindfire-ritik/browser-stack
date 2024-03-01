@@ -23,6 +23,8 @@ def before_scenario(context, scenario):
     context.browser.maximize_window()
     context.browser.delete_all_cookies()
 
+    print(context.browser.session_id)
+
 
 def after_step(context, step):
     pass
